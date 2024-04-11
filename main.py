@@ -16,10 +16,10 @@ app = Ursina()
 # define game variables
 # texture dictionary
 textures = {
-    'grass_block':   load_texture('assets/textures/groundEarth.png'),
-    'dirt_block':    load_texture('assets/textures/groundMud.png'),
-    'stone_block':   load_texture('assets/textures/wallStone.png'),
-    'bedrock_block': load_texture('assets/textures/stone07.png'),
+    'grass_block':   load_texture('assets/textures/grass_block.png'),
+    'dirt_block':    load_texture('assets/textures/dirt_block.png'),
+    'stone_block':   load_texture('assets/textures/stone_block.png'),
+    'bedrock_block': load_texture('assets/textures/bedrock_block.png'),
     'skybox':        load_texture('assets/textures/skybox.png'),
     'arm':           load_texture('assets/textures/arm.png')
 }
